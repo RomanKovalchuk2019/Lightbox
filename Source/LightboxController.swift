@@ -165,7 +165,8 @@ open class LightboxController: UIViewController {
 
   open override func viewDidLoad() {
     super.viewDidLoad()
-
+    
+    modalPresentationStyle = .fullScreen
     statusBarHidden = UIApplication.shared.isStatusBarHidden
 
     view.backgroundColor = UIColor.black
